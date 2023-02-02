@@ -4,7 +4,7 @@ export default function Card() {
   return (
     <div>
       
-        <div className="card mt-3" style={{ width: "18rem", "maxHeight":"500px", border: 'solid' }}>
+        <div className="card mt-m" style={{ width: "18rem",height:"32rem", border: 'solid' }}>
 
           <img src="https://www.foodiesfeed.com/wp-content/uploads/2022/07/haloumi-burger-with-french-fries.jpg" className="card-img-top" alt="..." />
           <div className="card-body">

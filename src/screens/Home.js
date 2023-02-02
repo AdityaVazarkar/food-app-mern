@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../component/Card";
 import Carousel from "../component/Carousel";
-//import Footer from "../component/Footer";
+import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
 
 const Home = () => {
@@ -16,8 +16,14 @@ const Home = () => {
       <div style={{margin:'20px'}}>
         <Card></Card>
       </div>
+      <div className="" style={{margin:'20px'}} >
+        <Card></Card>
       </div>
-      {/* <div><Footer /></div> */}
+      <div style={{margin:'20px'}}>
+        <Card></Card>
+      </div>
+      </div>
+      <div><Footer /></div>
     </div>
   );
 };
