@@ -1,6 +1,8 @@
 Node:
 JavaScript generally runs the code on the browser whereas the node allows to run website on ther server.
 npm vs npx
+It works for installing Modules.
+For eg Angular,React
 http request is send to server
 Node allows to run the website on the server
 node allows to run code pf js on console
@@ -59,5 +61,7 @@ https->Protocol
 www.geeksforgeeks.org->Host name
 project->pathname
 sort=newest&lang=node.js->parameters query
-& defines another parameter 
+& defines another parameter
+
+end 
 
