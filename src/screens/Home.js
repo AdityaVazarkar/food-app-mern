@@ -9,20 +9,13 @@ const Home = () => {
     <div>
       <div><Navbar /></div>
       <div><Carousel/></div>
-      <div style={{    padding: '18px',display: 'flex',margin: '52px' ,}}>
-      <div className="" style={{margin:'20px'}} >
-        <Card></Card>
+
+      <div className='m-3' style={{display: '' ,margin: '' }} >
+        <Card/>
+        <Card/>
+        <Card/>
       </div>
-      <div style={{margin:'20px'}}>
-        <Card></Card>
-      </div>
-      <div className="" style={{margin:'20px'}} >
-        <Card></Card>
-      </div>
-      <div style={{margin:'20px'}}>
-        <Card></Card>
-      </div>
-      </div>
+      
       <div><Footer /></div>
     </div>
   );
