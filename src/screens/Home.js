@@ -10,11 +10,14 @@ const Home = () => {
       <div><Navbar /></div>
       <div><Carousel/></div>
 
-      <div className='m-3' style={{display: '' ,margin: '' }} >
+      <div className='m-2 ' style={{display: 'flex' ,padding:"", justifyContent:"space-between"}} >
+        <Card/>
+        <Card/>
         <Card/>
         <Card/>
         <Card/>
       </div>
+      
       
       <div><Footer /></div>
     </div>
