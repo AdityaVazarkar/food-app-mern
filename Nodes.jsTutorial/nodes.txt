@@ -1,0 +1,67 @@
+Node:
+JavaScript generally runs the code on the browser whereas the node allows to run website on ther server.
+npm vs npx
+It works for installing Modules.
+For eg Angular,React
+http request is send to server
+Node allows to run the website on the server
+node allows to run code pf js on console
+When the https website request is send to server and the server response to the client and through that it displays
+the content
+
+Node.js is generally used for the database management
+
+Eg
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.send('Hello World!');
+}).listen(8080);
+
+Req->request
+res->Response
+Response is send to the server and servers displays Hello World on the client-side
+
+Running Command:
+node filename.js
+
+Modules are the libraries of the JavaScript
+Many Functions is included in it
+
+To include a module we use require()
+We can also include other user-build Modules
+Eg var dt = require('./module name')
+
+createServer
+http module sends a http request to the assigned server ports and gives back to the client-side
+
+Syntax
+http.createServer(function (req, res) 
+Here as per above example it listens to port 8000
+Req is used to send the request to the server from the client-side.
+
+
+HTTP 
+3)Response Writer
+Response.writer(200,{Content-type:text/html})
+
+200->Status of the http request that means all is working fine
+404->Http request no received
+It runs on the localhost:8000
+
+Req has some properties url that is placed after the domain name
+That can be /url
+
+url.parse( urlString, parseQueryString, slashesDenoteHost)
+urlString->It holds the url
+parseQueryString ->True or False.If it is true it returns url object and if false then no url object is returned
+https://www.geeksforgeeks.org/project/sort=newest&lang=node.js
+https->Protocol 
+www.geeksforgeeks.org->Host name
+project->pathname
+sort=newest&lang=node.js->parameters query
+& defines another parameter
+
+end 
+
