@@ -1,0 +1,5 @@
+Initially learn about BSON File.
+MongoDb doesn't need to pass all values in schema as in MYSQL
+It follows storing of value in dictionary pattern that is key:value
+
+
