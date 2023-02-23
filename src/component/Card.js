@@ -6,7 +6,8 @@ export default function Card() {
       <div class="flip-card" >
         <div class="flip-card-inner" style={{}}>
           <div class="flip-card-front" >
-            <img src="https://www.foodiesfeed.com/wp-content/uploads/2022/07/haloumi-burger-with-french-fries.jpg" alt="Avatar" style={{ width: "300px", height: "300px", }} />
+          
+            <img src="https://source.unsplash.com/random/900×700/?burger" alt="Avatar" style={{ width: "300px", height: "300px", }} />
           </div>
           <div class="flip-card-back">
             <div className="card-body">

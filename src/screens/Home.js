@@ -10,7 +10,7 @@ const Home = () => {
       <div><Navbar /></div>
       <div><Carousel/></div>
 
-      <div className='m-2 ' style={{display: 'flex' ,padding:"", justifyContent:"space-between"}} >
+      <div className='m-2' style={{display: 'flex' ,padding:"", justifyContent:"space-between"}} >
         <Card/>
         <Card/>
         <Card/>
