@@ -7,7 +7,7 @@ export default function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/auth/login", {
+    const response = await fetch("http://localhost:5000/api/loginuser", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -49,10 +49,10 @@ export default function Login() {
             <input type="password" className="form-control" placeholder="password" value={credentials.password} onChange={onChange} name='password' />
           </div>
           <button type="submit" className="m-3 btn btn-success">Submit</button>
-          <Link to="/signup" className="m-3 mx-1 btn btn-danger">New User</Link>
+          <Link to="/creatuser" className="m-3 mx-1 btn btn-danger">New User</Link>
         </form>
 
       </div>
-    </div>
-  )
+    </div>
+  )
 }
